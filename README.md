@@ -1,8 +1,8 @@
 
 
-# Visual Cryptography with MATLAB 🔐
+# Visual Cryptography with MATLAB 
 
-> **This project was developed by Ömer Hamza Ataç and Eyyub Taşdemir under the supervision of Şehit Hüseyin Gültekin Bilim ve Sanat Merkezi (BİLSEM).**
+> **This project was developed by Ömer Hamza Ataç and Eyyub Taşdemir in 2023 under the supervision of Şehit Hüseyin Gültekin Bilim ve Sanat Merkezi (BİLSEM).**
 
 This project is an image encryption (visual cryptography) application with a graphical user interface developed using MATLAB. It primarily uses **Affine Transformation** and **Matrix Rotation** methods to encrypt images and restore encrypted images back to their original state.
 
@@ -45,6 +45,8 @@ git clone https://github.com/Shenibrium/visual_cryptography_matlab.git
 Goruntu_Sifreleme
 ```
 
+![MATLAB](matlab.png)
+
 4.  **Usage Steps:**
 
 <!-- end list -->
@@ -53,6 +55,8 @@ Goruntu_Sifreleme
   * **Set Parameters:** Enter the *Key A (A Anahtarı)*, *Key B (B Anahtarı)*, and *Matrix Rotation (Matris Döndürme)* values (e.g., A=11, B=12, Rotation=40) for the Red, Green, and Blue channels via the Control Panel.
   * **Encrypt (Şifrele):** Click the button to generate the processed (encrypted) image on the right screen.
   * **Decrypt (Deşifre Et):** Use the decrypt button with the exact same parameters to restore the encrypted image to its original state.
+
+![Interface](interface.png)
 
 ## 📜 License
 
